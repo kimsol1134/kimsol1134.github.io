@@ -1,0 +1,6 @@
+:root{--paper:#F6F2E8;--ink:#252B27;--muted:#737C64;--seal:#9F493A;--line:#D4D6C9;color-scheme:light dark}
+body{background:var(--paper);color:var(--ink);font:17px/1.8 "Pretendard",system-ui,-apple-system,sans-serif;max-width:760px;margin:auto;padding:32px 16px 80px}
+a{color:var(--seal)}h1{font-size:1.8rem;line-height:1.3}h2{font-size:1.15rem;margin-top:36px}
+nav{padding:12px 0;border-bottom:1px solid var(--line);display:flex;gap:16px;flex-wrap:wrap}
+main>section{margin-top:40px}.meta{color:var(--muted)}footer{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#1c1f1d;--ink:#ece7da;--muted:#a9b096;--line:#3a3f3a;--seal:#d98a74}}
